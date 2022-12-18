@@ -2,11 +2,23 @@
     padding: o;
     margin: 0;
     box-sizing: border-box;
+
+}
+
+.nav-item {
+    transition: all 1s;
+
+}
+
+.nav-item:hover {
+    background-color: rgb(181, 216, 247);
+    font-size: 18px;
 }
 
 .img-fluid {
     border-style: outset;
     border-radius: 5%;
+
 }
 
 h1 {
@@ -31,8 +43,6 @@ section p {
     border-style: outset;
     border-radius: 5%;
     margin: 1%;
-    
-    
 }
 
 .galeria div {
@@ -49,11 +59,9 @@ section p {
     margin: 5px;
     border-style: outset;
     border-radius: 5%;
-
 }
 
 footer {
-   
     display: flex;
 }
 
@@ -62,8 +70,6 @@ footer div {
     width: 50%;
     padding-top: 1rem;
     padding-bottom: 1rem;
-
-
 }
 
 footer div p {
@@ -76,6 +82,12 @@ footer div a {
     margin-right: 1%;
     margin-left: 1%;
     font-size: 30px;
+    transition: all 1s;
+}
+
+footer div a:hover {
+    background-color: rgb(181, 216, 247);
+    font-size: 40px;
 }
 
 .footer {
@@ -90,39 +102,62 @@ footer div a {
     font-size: 30px;
     padding-top: 1rem;
     padding-bottom: 1rem;
+    transition: all 1s;
 }
-/*h2 {
-    background-color: chartreuse;
+
+.footer li:hover {
+    background-color: rgb(181, 216, 247);
+    font-size: 40px;
+}
+
+h2 {
+
     display: flex;
     justify-content: flex-end;
     align-items: center;
     width: 100%;
     padding-right: 25%;
-}*/
+}
 
 .contacto {
-    
+
     display: flex;
     width: 100%;
     height: 400px;
-    flex-direction: row-reverse;
+    justify-content: center;
     align-items: center;
 }
-/*
-.contacto iframe {
-    background-color: chocolate;
-    width: 60%;
-    justify-content: flex-start;
-    height: 400px;
 
-}*/
-
-.contacto div {
-   
-    width: 40%;
+.contacto form {
+    background-color: rgb(188, 224, 224);
+    width: 100%;
+    height: 100%;
     padding: 5%;
-    /*padding-right: none;*/
+    
     border-radius: 20%;
-    justify-content: stretch;
-    align-items: stretch;
+    justify-content: center;
+    align-content: space-between;
+    gap: 2%;
+}
+
+form button {
+    width: 300px;
+    border-style: outset;
+    border-radius: 10%;
+    margin-top: 10px;
+    transition: all 1s;
+}
+
+form button:hover {
+
+    font-size: xx-large;
+}
+
+form div {
+
+    padding: 2%;
+    font-size: 15px;
+}
+.padding{
+    padding-top: 8%;
 }
